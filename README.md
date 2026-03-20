@@ -1,6 +1,6 @@
 # 🤖 Workflow AI Customer Service
 
-![Screenshot Alur n8n](./assets/foto-n8n.png)
+![Screenshot Alur n8n](./Screenshot from 2026-03-20 15-30-50.png)
 
 Workflow n8n ini adalah *engine* AI yang memproses pesan masuk dan membalasnya menggunakan kepribadian (*persona*) yang bisa diatur secara dinamis.
 
