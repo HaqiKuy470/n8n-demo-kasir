@@ -1,5 +1,7 @@
 # 🤖 Workflow AI Customer Service
 
+![Screenshot Alur n8n](./assets/foto-n8n.png)
+
 Workflow n8n ini adalah *engine* AI yang memproses pesan masuk dan membalasnya menggunakan kepribadian (*persona*) yang bisa diatur secara dinamis.
 
 ## ⚙️ Cara Kerja Singkat
@@ -10,5 +12,3 @@ Workflow n8n ini adalah *engine* AI yang memproses pesan masuk dan membalasnya m
    Data pesan dan kepribadian tersebut dikirim ke model **Google Gemini Flash**. AI kemudian memproses dan menciptakan balasan teks sesuai dengan karakter yang diinstruksikan.
 3. **📤 Mengirim Balasan (Respond to Webhook)**
    Teks balasan dari AI diubah menjadi format JSON yang valid (menggunakan `JSON.stringify`) agar aman dari *error* karakter khusus/emoji, lalu dikirimkan kembali ke aplikasi pemanggil (seperti WhatsApp Bot).
-
-   
